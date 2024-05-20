@@ -28,18 +28,10 @@ const PhoneLogin = () => {
     setShowOtp(true);
   };
 
-  console.log(phoneNumber);
-
   const handleOtpSubmit = (otp: any) => {
     console.log("Hanlding OPT Submit");
+    console.log(otp);
   };
-
-  console.log("testing if number");
-
-  console.log("#1");
-  console.log(isNaN(Number("156165465")));
-  console.log("#2");
-  console.log(isNaN(Number("156165465a")));
 
   return (
     <div>
